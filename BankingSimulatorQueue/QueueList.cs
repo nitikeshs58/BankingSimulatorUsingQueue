@@ -17,7 +17,6 @@ namespace BankingSimulatorQueue
         /// initialised array size 
         /// initialised 0 with rear and front.
         /// </summary>
-        /// <param name="size"></param>
         public QueqeList(int size)
         {
             queueListArray = new int[size];

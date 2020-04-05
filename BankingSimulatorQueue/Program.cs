@@ -8,7 +8,7 @@ namespace BankingSimulatorQueue
         public static void Main(string[] args)
         {
             Console.WriteLine("!!Welcome to Banking Simulator Cash Counter!!\n");
-            Console.WriteLine("Enter QueueList size :");
+            Console.WriteLine("Enter Queuelist size :");
             int size = Convert.ToInt32(Console.ReadLine());
             // object creation of QueueList and parameterized constructor called
             QueqeList queue = new QueqeList(size);
